@@ -13,9 +13,10 @@ public class Main {
                 new AnnotationConfigApplicationContext(ShopConfiguration.class);
 
         Product aaa = context.getBean("aaa", Product.class);
-        Product cdrw = context.getBean("cdrw", Product.class);
+        Disc cdrw = context.getBean("cdrw", Disc.class);
 
         System.out.println(aaa);
-        System.out.println(cdrw);
+        System.out.println(cdrw.toString());
+        System.out.println(cdrw.getCapacity());
     }
 }

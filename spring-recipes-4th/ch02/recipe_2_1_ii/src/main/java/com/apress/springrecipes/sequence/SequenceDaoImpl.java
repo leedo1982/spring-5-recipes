@@ -3,7 +3,6 @@ package com.apress.springrecipes.sequence;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
-
 import org.springframework.stereotype.Component;
 
 @Component("sequenceDao")

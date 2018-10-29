@@ -25,9 +25,9 @@ public class SequenceGenerator {
     }
 
     public String getSequence() {
-        String builder = prefix +
-                initial +
-                counter.getAndIncrement() +
+        String builder = prefix + "_" +
+                initial + "_" +
+                counter.getAndIncrement() + "_" +
                 suffix;
         return builder;
     }
