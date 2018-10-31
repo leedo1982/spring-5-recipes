@@ -19,7 +19,7 @@ public class Cashier {
     @Value("checkout")
     private String fileName;
 
-    @Value("c:/Windows/Temp/cashier")
+    @Value("/Users/dowon/Todo-Memo/cashier")
     private String path;
 
     private BufferedWriter writer;
